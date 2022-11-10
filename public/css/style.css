@@ -1,6 +1,12 @@
 h1{
     color: red;
 }
+.todoItem{
+    color: black;
+}
+.todoPriority{
+    color: red;
+}
 .completed{
     text-decoration: line-through;
     color: gray;
