@@ -22,6 +22,10 @@
 
     <form action="/todos/createTodo" method='POST'>
         <input type="text" placeholder="Enter Todo Item" name='todoItem'>
+        <Span>Select a deadline or leave blank</Span>
+        <input type="datetime-local" name='deadline'>
+        <Span>Check if this is very high priority</Span>
+        <input type="checkbox" name="highPriority" value="true">
         <input type="submit">
     </form>
 
